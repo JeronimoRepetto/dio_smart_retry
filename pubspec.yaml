@@ -10,7 +10,10 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  dio: ^5.0.0
+  dio: 
+    git:
+      url: https://github.com/J3r0R3p3tt0/dio.git
+      path: dio
   http_parser: ^4.0.2
   path: ^1.8.2
 
